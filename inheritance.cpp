@@ -15,7 +15,7 @@ class fruits{
             //setter
         int setPrice(int price){
             this->price = price;
-            return price;
+            cout << price;
         }
 };
 
@@ -25,7 +25,7 @@ class mango:public fruits{
     public:
         void setColor(string color){
             this->color = color;
-            cout<<"price: "<< price << "color:"<<color<<endl;
+            cout<<"color:"<<color<<endl;
         }
 };
 
