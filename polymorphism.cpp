@@ -69,6 +69,10 @@ int main(){
 class Apple{
     public:
         virtual void name(){
+                    /*
+                    if we are using dynamic method dispatch , we need to make themethod
+                    which we are accessing as virtual
+                    */
             std::cout<<"An Apple"<<std::endl;
         }
 };
